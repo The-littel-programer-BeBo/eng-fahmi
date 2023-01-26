@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      direction: rtl;
+      background-color: #aaa;
+      overflow-x: hidden;
+    }
+    .page{
+      height: calc(3510px/4.6);
+      aspect-ratio: 1/1.4;
+      /* width: calc(2482px/4); */
+      background: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    .page1{
+      background-image:url('image/1.jpg') ;
+    }
+    .page2{
+      background-image:url('image/2.jpg') ;
+    }
+    .page3{
+      background-image:url('image/3.jpg') ;
+    }
+    .page4{
+      background-image:url('image/4.jpg') ;
+    }
+    span{
+      position: absolute;
+      width: fit-content;
+      display: inline-block;
+      color: red;
+    }
+    .page1 .span1{
+      top: 150px;
+      right: 178px;
+    }
+    .page1 .span2{
+      top: 207px;
+      right: 106px;
+    }
+    .page1 .span3{
+      top: 238px;
+      right: 96px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page page1">
+    <span class="span1">طرابلس</span>
+    <span class="span2">محمد عيد توفيق حسن</span>
+    <span class="span3">123456789</span>
+  </div>
+  <div class="page page2">
+  </div>
+  <div class="page page3">
+  </div>
+  <div class="page page4">
+  </div>
+</body>
+</html>
